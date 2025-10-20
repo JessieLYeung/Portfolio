@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Work Experience - Portfolio of Jessie Yeung">
+        <meta name="keywords" content="portfolio, work experience, computer science, UCF">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Jessie Yeung - Work Experience</title>
+    </head>
+
+    <body>
+        <!-- Navigation Bar at Top -->
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Work</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Name Header -->
+        <div style="text-align: center;">
+            <h1>Jessie Yeung</h1>
+        </div>
+
+        <!-- Work Experience Page -->
+        <div id="experience" style="display: flex; height: 100vh;">
+            <div class="jobs-panel">
+                <h1>Work Experience</h1>
+                <div class="Experience">
+                    <h2>Work Experience</h2>
+                    <div class="job" data-logo="yourspecialday-logo.png">
+                        <div class="job-header" onclick="toggleJob(this)">
+                            <h3>📁 Your Special Day - Chief Technology Officer</h3>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="job-details">
+                            <p>July 2025 - October 2025</p>
+                            <ul>
+                                <li>Created interactive web pages for a startup company using WordPress and Elementor</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job" data-logo="delloro_group_logo.jpg">
+                        <div class="job-header" onclick="toggleJob(this)">
+                            <h3>📁 Dell'Oro Group - Web Developer</h3>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="job-details">
+                            <p>June 2024 - December 2024</p>
+                            <ul>
+                                <li>Improved website reliability and data integrity by enhancing backend validation and optimizing SQL Server database structure, reducing customer-reported form and login issues by 30%.</li>
+                                <li>Optimized CMS performance by refactoring ASP.NET and C# components and tuning database queries, achieving a 20% reduction in page load time and smoother user experience.</li>
+                                <li>Authored and deployed database migration scripts to expand browser tracking capabilities, resulting in 20% faster query response times for login reports.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="job" data-logo="raytheon.jpg">
+                        <div class="job-header" onclick="toggleJob(this)">
+                            <h3>📁 Raytheon Technologies - Future Ready Engineers Program</h3>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="job-details">
+                            <p>June 2023 - July 2023</p>
+                            <ul>
+                                <li>Developed an AI-driven solution to address unemployment challenges, creating a research-based PowerPoint presentation that demonstrated practical applications of emerging technology.</li>
+                                <li>Presented research to an audience of 200+ engineers and mentors, strengthening public speaking skills and showcasing the ability to communicate complex technical ideas effectively.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-panel">
+                <div id="logo-display">
+                    <img src="img/breifcase transparent.png" alt="Briefcase" style="width: 100%; height: 100%; object-fit: contain;">
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
