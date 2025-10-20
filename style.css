@@ -26,6 +26,10 @@ h1 {
     font-family: 'Comfortaa', cursive;
 }
 
+.page-title {
+    color: #ffaa00;
+}
+
 h2 {
     font-size: 2.2em;
     color: var(--heading-color);
