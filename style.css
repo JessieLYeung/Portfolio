@@ -310,6 +310,33 @@ a:hover {
     text-decoration: underline;
 }
 
+.certificates-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 20px;
+}
+
+.certificate-box {
+    text-align: center;
+    max-width: 400px;
+}
+
+.certificate-box h3 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: var(--heading-color);
+}
+
+.certificate-box img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .Experience {
     margin: 20px;
 }
