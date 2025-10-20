@@ -12,7 +12,7 @@ A modern, responsive portfolio website showcasing my work as a Computer Science 
 
 ## 🚀 Live Demo
 
-View the live site at: [https://portfolio-jessieleung.vercel.app](https://portfolio-jessieleung.vercel.app)
+View the live site at: [https://jyeungportfolio.vercel.app/](https://jyeungportfolio.vercel.app/)
 
 ## 🛠️ Technologies Used
 
