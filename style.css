@@ -427,6 +427,52 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+.pdf-projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 20px;
+}
+
+.pdf-project-box {
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 300px;
+    transition: all 0.3s ease;
+}
+
+.pdf-project-box:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+.pdf-project-box h4 {
+    margin-top: 0;
+    font-size: 1.3em;
+    color: var(--heading-color);
+}
+
+.pdf-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #FF4500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.pdf-button:hover {
+    background-color: #ff6b35;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 .contact-section {
     display: flex;
     flex-wrap: wrap;
