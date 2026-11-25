@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title">
+  <title id="title">ShopScout</title>
+  <rect width="320" height="320" rx="82" fill="#27785b"/>
+  <circle cx="160" cy="160" r="92" fill="none" stroke="#fff" stroke-width="18"/>
+  <path d="M93 144h134l-18 92H111z" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M125 144c0-32 14-54 35-54s35 22 35 54" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="133" cy="238" r="12" fill="#fff"/>
+  <circle cx="187" cy="238" r="12" fill="#fff"/>
+</svg>

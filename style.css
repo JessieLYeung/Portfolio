@@ -240,6 +240,12 @@ a:hover {
         var(--bg-gradient);
 }
 
+.project-box.shopscout-project img {
+    height: calc(100% - 60px);
+    object-fit: contain;
+    padding: 24px;
+}
+
 .project-box:first-child {
     margin-left: 20px;
 }
